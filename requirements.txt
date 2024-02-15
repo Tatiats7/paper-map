@@ -1,0 +1,14 @@
+-e git+https://github.com/huggingface/transformers.git#egg=transformers
+-e git+https://github.com/huggingface/peft.git#egg=peft
+-e git+https://github.com/huggingface/accelerate.git#egg=accelerate
+-e git+https://github.com/huggingface/xformers.git#egg=xformers
+-e git+https://github.com/oughtinc/langchain.git#egg=langchain
+
+bitsandbytes
+einops
+safetensors
+torch
+ctransformers[cuda]
+chromadb
+sentence-transformers
+PyPDF2
